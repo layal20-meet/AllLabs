@@ -1,0 +1,47 @@
+import turtle
+#problem1
+print("layal")
+print("layal"*3)
+print("layal"*100)
+#problem2
+number1=6
+print(number1)
+number2=number1/2
+print(number2)
+#problem3
+a=0
+list=[1,2,3]
+for num in list:
+    print(num)
+    print(num*2)
+    a+=num
+    print(a)
+#problem4
+import turtle
+turtle.pensize(10)
+turtle.color('blue')
+turtle.penup()
+turtle.goto(-200,0)
+turtle.pendown()
+turtle.circle(50)
+turtle.penup()
+turtle.color('black')
+turtle.goto(-100,0)
+turtle.pendown()
+turtle.circle(50)
+turtle.penup()
+turtle.color('red')
+turtle.goto(0,0)
+turtle.pendown()
+turtle.circle(50)
+turtle.penup()
+turtle.color('green')
+turtle.goto(-50,-50)
+turtle.pendown()
+turtle.circle(50)
+turtle.penup()
+turtle.color('yellow')
+turtle.goto(-150,-50)
+turtle.pendown()
+turtle.circle(50)
+turtle.mainloop
