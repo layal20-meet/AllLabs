@@ -130,15 +130,15 @@
 #b.print_info()
 
 
-class Bear():
-	def __init__(self, name):
-            self.name=name
-            print("A new bear created. Its name is: "+ name)
-	
-	def say_hi(self):
-		print("Hi! I’m a bear. My name is " + name)
-my_bear = Bear("Danny")
-my_bear.say_hi()
+#class Bear():
+#	def __init__(self, name):
+ #           self.name=name
+  #          print("A new bear created. Its name is: "+ name)
+#	
+#	def say_hi(self):
+#		print("Hi! I’m a bear. My name is " + name)
+#my_bear = Bear("Danny")
+#my_bear.say_hi()
 
 
 
